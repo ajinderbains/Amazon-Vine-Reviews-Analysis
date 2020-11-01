@@ -14,7 +14,7 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 
 ## Results
 
-[notebook](https://github.com/ajinderbains/Amazon-Vine-Reviews-Analysis/blob/main/Amazon_Reviews_ETL.ipynb) will transfer Pet Products review  dataset into dataframes and upload the data in database and [sqlfile]() will help us find the answers for questions mentioned in overeview.
+[Colabprogram](https://github.com/ajinderbains/Amazon-Vine-Reviews-Analysis/blob/main/Amazon_Reviews_ETL.ipynb) will transfer Pet Products review  dataset into dataframes and upload the data in database and [sqlfile](https://github.com/ajinderbains/Amazon-Vine-Reviews-Analysis/blob/main/Vine_Review_Analysis.sql) will help us find the answers for questions mentioned in overeview.
 
 - There are **10215 paid** reviews and **2633399 unpaid** reviews.
 
@@ -33,9 +33,9 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 - Percentage for paid 5 star reviews is around  **0.16%**   and **62%** for  unpaid 5 reviews. 
 
 ### Paid Reviews
-![chart5]()
+![chart5](https://github.com/ajinderbains/Amazon-Vine-Reviews-Analysis/blob/main/images/percentagepaid.png)
 ### Unpaid Reviews
-![chart6]()
+![chart6](https://github.com/ajinderbains/Amazon-Vine-Reviews-Analysis/blob/main/images/percentageunpaid.png)
 
 ## Summary
 As it is clear from the results there is no bias found in our analysis,following are results which support our findings
