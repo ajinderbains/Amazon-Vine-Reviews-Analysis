@@ -66,7 +66,7 @@ where vine='N' and star_rating=5
 		 /(
 				 Select cast(count(review_id) As Float)
 from vine_table
-where vine='N'  ))*100;
+  ))*100;
 
 
 
@@ -79,7 +79,7 @@ from vine_table
 where vine='Y' and star_rating=5 )
 		 /( Select cast(count(review_id) As Float)
 from vine_table
-where vine='Y'))*100;
+))*100;
 
 
 
